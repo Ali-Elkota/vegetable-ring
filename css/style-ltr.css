@@ -1,0 +1,49 @@
+ body{
+     direction: ltr;
+     text-align: left;
+ }
+ 
+.text-left{
+    text-align: right
+}
+
+.text-right{
+    text-align: left
+}
+
+.form-group .icon_fa{
+    left: unset;
+    right: 15px;
+}
+
+.icon_N{
+    left: -8px;
+    right: unset
+}
+
+
+.t-footer:after{
+    
+    left: -12px;
+    right: unset
+}
+
+.modal button.close{
+    right: 5px;
+    left: unset
+}
+
+
+ @media (max-width: 767.98px) {
+     
+
+     .nav_bar {
+         left: 0px;
+         right: unset;
+         transform: translateX(-100%)
+     }
+
+     .nav_bar.active {
+         transform: translateX(0)
+     } 
+}
